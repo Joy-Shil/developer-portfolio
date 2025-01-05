@@ -206,7 +206,21 @@ main section {
 /* footer related styles */
 footer{
   display: flex;
+  gap: 100px;
   background-color: rgb(242, 230, 230);
   padding: 130px 200px;
   margin-top: 50px;
+}
+.footer-coloumn{
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: rgb(65, 64, 64);
+  border-radius: 5px;
+  background-color: rgb(242, 243, 244);
+  border: 0px;
+  width: 100%;
 }
