@@ -181,6 +181,7 @@ main section {
 .resume-conteiner {
   display: flex;
   gap: 50px;
+  margin: 0px 40px 0px 40px;
 }
 
 .resume-item-title {
@@ -201,4 +202,11 @@ main section {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+/* footer related styles */
+footer{
+  display: flex;
+  background-color: rgb(242, 230, 230);
+  padding: 130px 200px;
+  margin-top: 50px;
 }
